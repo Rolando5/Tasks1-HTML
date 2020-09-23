@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>DIVE Co., Ltd</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">home</a></li>
+          <li><a href="business.html">Business Description</a></li>
+          <li><a href="company.html">Company Profile</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="business.html">Bisness Description</a></li>
+            <li><a href="company.html">Company Profile</a></li>
+            <li class="point"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="content">
+       <div class="inquire">
+         <h1>Inquiry</h1>
+         <table border="0">
+          <tr>
+            <th class="wide">Name</th>
+            <td class="lenght"><input type="text" size=73></td>
+          </tr>
+          <tr>
+            <th class="wide">Email</th>
+            <td class="lenght"><input type="text" size=73></td>
+          </tr>
+        </table>
+      </div>
+
+
+        <div class="sex">
+          <p>Gender: <input type="checkbox" name="sex" value="male">Male
+                     <input type="checkbox" name="sex" value="male">Female
+        </div>
+
+
+        <div class="message">
+          <form action_"cgi-bin/formmail.cgi" method_"post">
+            <p>Inquiries:<textarea name_"kanso" rows_"5" cols_"660"></textarea></p>
+       </div>
+
+        <div class="button">
+          <input type="submit" value="send" relative="submit" size=30>
+        </div>
+      </article>
+
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+</body>
+</html>
